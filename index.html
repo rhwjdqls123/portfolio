@@ -627,11 +627,108 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>틱택토</h2>
+                            <h2>JAVA</h2>
                             <hr class="star-primary">
 
                             <img src="img/c.png" class="img-responsive img-centered" alt="">
-                            <p><a href=""링크</p>
+                            <p>1. 자바:객체지향 프로그래밍 언어로서 개발을 목적으로하는 언어이다.자바는 모든 코드가 클래스에 담겨있는 100% 개체지향언어이다.</p>
+                            <p>2. 자바 개발 환경 프로그램 설지 및 실행방법 : 설치 및 실행방법 바로가기</p>
+                            <p>3. <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .sw {
+        color: blue;
+      }
+
+      #smc {
+        color: green;
+      }
+    </style>
+    <script type="text/javascript">
+      function BodySetBackgroundColor(color)
+      {
+        document.querySelector('body').style.background = color;
+      }
+
+      function BodySetColor(color)
+      {
+        document.querySelector('body').style.color = color;
+      }
+
+      function OnOff(self)
+      {
+        var simple = document.querySelector('body');
+
+        if (this.value === "on")
+        {
+          simple.style.background = "yellow";
+          simple.style.color = "black";
+          this.value = "off"
+        }
+        else {
+          {
+            simple.style.background = "black";
+            simple.style.color = "yellow";
+            this.value = "on"
+          }
+        }
+      }
+
+      function Check()
+      {
+        var check_count = document.getElementsByName('language').length;
+
+        for (var i = 0; i < check_count; i++)
+        {
+          if (document.getElementsByName('language')[i].checked == true)
+          {
+            alert(document.getElementsByName('language')[i].value);
+          }
+        }
+      }
+
+      var day = {
+        "monday" : "happy",
+        "tuesday" : "sad",
+        "wendesday" : "exciting"
+      };
+
+      for (var d in day)
+      {
+        document.write(d + " : " + day[d] + "<br>");
+      }
+
+      var month = ["monday", "tuesday", "wendesday", "thursday", "friday", "saturday"];
+
+      document.write("<h3>" + "오늘은 " + month[2] + "입니다." + "</h3>")
+    </script>
+  </head>
+  <body>
+    <h1><a href="Intro.html">고정빈의 프로필</a></h1>
+    <h3 style="background-color: black; color: white;">2학년 9반 1번</h3>
+    <h4><span class="sw">소프트웨어 1등</span>, <span id="smc">세명컴퓨터고등학교</span></h4>
+    <input type="button" id="pink_white" value="pink" onclick="
+    BodySetBackgroundColor('pink');
+    BodySetColor('white');">
+
+    <input type="button" id="question" value="email" onclick="alert('kyeongwon329@gmail.com');">
+
+    <input type="button" id="change" value="on" onclick="OnOff(this);">
+    <ol>
+      <li><a href="1.html">1</a></li>
+      <li><a href="1.html">2</a></li>
+      <li><a href="1.html">3</a></li>
+    </ol>
+
+    <input type="checkbox" name="language" value="java" onclick="Check()">java
+    <input type="checkbox" name="language" value="c" onclick="Check()">c
+    <input type="checkbox" name="language" value="python" onclick="Check()">python
+  </body>
+</html></p>
+                            <p>4. 이번학기에는 웹사이트 만드는걸 배웠다.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
